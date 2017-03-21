@@ -1,4 +1,51 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
+}
+.head_tool{
+	position: relative;
+	width: 1519px;
+	height: 82px;
+}
+.head_tool>img{
+	position: absolute;
+	left: 250px;
+	float: left;
+	padding-top: 12px;
+}
+.head_menu{
+	position: absolute;
+	left: 450px;
+	float: left;
+}
+.head_menu>a{
+	display: block;
+	float: left;
+	border-left: 1px dashed #000;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 45px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*轮播*/
+.carousel{
+}
+.slideBox{ width:1519px; height:555px; overflow:hidden; position:relative; border:1px solid #ddd; padding-top: -40px}
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:1519px; height:555px; display:block;  margin-top: -40px;}
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev,
+.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../img/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+
+.body_left{
 }
