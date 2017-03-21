@@ -32,6 +32,7 @@
 }
 /*轮播*/
 .carousel{
+	position: relative;
 }
 .slideBox{ width:1519px; height:555px; overflow:hidden; position:relative; border:1px solid #ddd; padding-top: -40px}
 .slideBox .bd{ position:relative; height:100%; z-index:0;   }
@@ -47,5 +48,24 @@
 .slideBox .prevStop{ display:none;  }
 .slideBox .nextStop{ display:none;  }
 
+.tool_img{
+	position: absolute;
+	top: 405px;
+	left: 250px;
+	width: 1023px;
+	height: 142px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 20px;
+}
+.box_img{
+	text-align: center;
+	margin: 14px;
+	float: left;
+}
+.box_img>p{
+	margin-top: -23px;
+	color: #fff;
+	font-size: 6px;
+}
 .body_left{
 }
