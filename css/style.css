@@ -67,5 +67,28 @@
 	color: #fff;
 	font-size: 6px;
 }
-.body_left{
+.top_body{
+	padding: 10px 25px;
+	width: 1023px;
+	margin: 0px auto;
+}
+.top_body_left{
+	padding-left: 70px;
+	float: left;
+	width: 27%;
+}
+.top_body_right{
+	float: left;
+	width: 70%;
+	margin-right: -50px;
+}
+.top_body_topt{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	border: 3px solid rgb(171,191,218);
+}
+.news_company{
+	width: 23%;
+	float: left;
 }
